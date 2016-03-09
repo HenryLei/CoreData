@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		17BDCBF11C8EA89C00094895 /* Province+CoreDataProperties.m in Sources */ = {isa = PBXBuildFile; fileRef = 17BDCBEE1C8EA89C00094895 /* Province+CoreDataProperties.m */; };
+		17BDCBF21C8EA89C00094895 /* Province.m in Sources */ = {isa = PBXBuildFile; fileRef = 17BDCBF01C8EA89C00094895 /* Province.m */; };
 		17FA30231C8A759300ECFE92 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 17FA30221C8A759300ECFE92 /* main.m */; };
 		17FA30261C8A759300ECFE92 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 17FA30251C8A759300ECFE92 /* AppDelegate.m */; };
 		17FA30291C8A759300ECFE92 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 17FA30281C8A759300ECFE92 /* ViewController.m */; };
@@ -36,6 +38,10 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		17BDCBED1C8EA89C00094895 /* Province+CoreDataProperties.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "Province+CoreDataProperties.h"; sourceTree = "<group>"; };
+		17BDCBEE1C8EA89C00094895 /* Province+CoreDataProperties.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "Province+CoreDataProperties.m"; sourceTree = "<group>"; };
+		17BDCBEF1C8EA89C00094895 /* Province.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Province.h; sourceTree = "<group>"; };
+		17BDCBF01C8EA89C00094895 /* Province.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Province.m; sourceTree = "<group>"; };
 		17FA301E1C8A759300ECFE92 /* CoreData.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CoreData.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		17FA30221C8A759300ECFE92 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		17FA30241C8A759300ECFE92 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -112,6 +118,10 @@
 				17FA30321C8A759400ECFE92 /* LaunchScreen.storyboard */,
 				17FA30351C8A759400ECFE92 /* Info.plist */,
 				17FA302D1C8A759300ECFE92 /* CoreData.xcdatamodeld */,
+				17BDCBED1C8EA89C00094895 /* Province+CoreDataProperties.h */,
+				17BDCBEE1C8EA89C00094895 /* Province+CoreDataProperties.m */,
+				17BDCBEF1C8EA89C00094895 /* Province.h */,
+				17BDCBF01C8EA89C00094895 /* Province.m */,
 				17FA30211C8A759300ECFE92 /* Supporting Files */,
 			);
 			path = CoreData;
@@ -274,6 +284,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				17FA302F1C8A759300ECFE92 /* CoreData.xcdatamodeld in Sources */,
+				17BDCBF21C8EA89C00094895 /* Province.m in Sources */,
+				17BDCBF11C8EA89C00094895 /* Province+CoreDataProperties.m in Sources */,
 				17FA30291C8A759300ECFE92 /* ViewController.m in Sources */,
 				17FA30261C8A759300ECFE92 /* AppDelegate.m in Sources */,
 				17FA30231C8A759300ECFE92 /* main.m in Sources */,
@@ -500,6 +512,7 @@
 				17FA30501C8A759400ECFE92 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		17FA30511C8A759400ECFE92 /* Build configuration list for PBXNativeTarget "CoreDataTests" */ = {
 			isa = XCConfigurationList;
@@ -508,6 +521,7 @@
 				17FA30531C8A759400ECFE92 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		17FA30541C8A759400ECFE92 /* Build configuration list for PBXNativeTarget "CoreDataUITests" */ = {
 			isa = XCConfigurationList;
@@ -516,6 +530,7 @@
 				17FA30561C8A759400ECFE92 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 
