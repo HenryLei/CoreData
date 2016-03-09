@@ -22,6 +22,9 @@
 //    [self readTextData];
     [self searchText];
     
+    
+    
+    
 }
 
 - (void)saveText{
